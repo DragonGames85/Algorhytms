@@ -1,0 +1,254 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+html {height: 100%}
+
+body {
+	width: 100%;
+	height: 100%;
+    color: #000000;
+	background-color: black;
+	font-family: "Segoe UI", Arial, sans-serif;
+	font-size: 1em;
+	line-height: 135%;
+	float: left;
+  } 
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+}
+
+
+
+.clear {
+	clear: both;
+}
+
+/* Стили для шапки */
+
+header {
+	width: 98%;
+	float: left;
+	padding: 1%;
+    background: #000000;
+    color: #f4f4f4;
+	border-bottom: 2px solid rgb(0, 255, 38);
+}
+
+header #logo {
+	width: 20%;
+	float: left;
+    background: #000000;
+    color: #f4f4f4;
+}
+
+header #logo a {
+	color: rgb(0, 255, 38);
+	font-size: 2em;
+	font-family: Times New Roman, sans-serif;
+}
+
+header #logo span {
+	color:#FF0000;
+}
+
+header #menuHead {
+	width: 80%;
+	float: left;
+}
+
+header #menuHead div {
+	float: left;
+	padding: 5px;
+	background-color: grey;
+	border-radius: 10px;
+}
+
+
+
+header #menuHead div:hover {
+	background-color: rgb(78, 75, 75);
+}
+
+
+ button {
+	float: left;
+	padding: 1%;
+    background: white;
+    color: black;
+	border-bottom: 2px solid rgb(0, 255, 115);
+	border-top: 2px solid rgb(0, 255, 115);
+	border-left: 2px solid rgb(0, 255, 115);
+	border-right: 2px solid rgb(0, 255, 115);
+}
+
+button:hover {
+	background: rgb(164, 206, 255);
+ }
+ button:active { background: rgb(51, 255, 0); } 
+ 
+canvas {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 5%;
+	height: 69%;
+	border: 3px solid rgb(0, 255, 42);
+	background-color: rgba(255, 255, 255, 0.436);
+	border-radius: 50px;
+}
+
+
+#launch {
+	width:25%;
+	float: left;
+	margin-top: 0.3%;
+	margin-right: 1%;
+	margin-left: 11.5%;
+	padding: 1%;
+    background: white;
+    color: black;
+	border-bottom: 2px solid rgb(0, 255, 115);
+	border-top: 2px solid rgb(0, 255, 115);
+	border-left: 2px solid rgb(0, 255, 115);
+	border-right: 2px solid rgb(0, 255, 115);
+	border-radius: 50px;
+}
+#launch:hover{
+	background: rgb(0, 255, 115);
+ }
+
+ #launch:active { background: rgb(37, 180, 2); } 
+
+ #random {
+	width:25%;
+	float: left;
+	padding: 1%;
+    background: white;
+    color: black;
+	border-bottom: 2px solid rgb(255, 196, 0);
+	border-top: 2px solid rgb(255, 196, 0);
+	border-left: 2px solid rgb(255, 196, 0);
+	border-right: 2px solid rgb(255, 196, 0);
+	border-radius: 50px;
+}
+
+#random:hover{
+	background: rgb(255, 196, 0);
+ }
+
+ #random:active { background: rgb(126, 96, 14); } 
+ 
+ #clear {
+	width:25%;
+	float: left;
+	margin-right: 1%;
+	margin-top: 0.3%;
+	padding: 1%;
+    background: white;
+    color: black;
+	border-bottom: 2px solid rgb(111, 0, 255);
+	border-top: 2px solid rgb(111, 0, 255);
+	border-left: 2px solid rgb(111, 0, 255);
+	border-right: 2px solid rgb(111, 0, 255);
+	border-radius: 50px;
+}
+#clear:hover{
+	background: rgb(164, 244, 255);
+ }
+
+ #clear:active { background: rgb(8, 52, 172); } 
+ 
+
+ #nest {
+	width:25%;
+	margin-right: 1%;
+	margin-left: 11.5%;
+	margin-top: 0.3%;
+	padding: 1%;
+    background: white;
+    color: black;
+	border-bottom: 2px solid rgb(255, 0, 0);
+	border-top: 2px solid rgb(255, 0, 0);
+	border-left: 2px solid rgb(255, 0, 0);
+	border-right: 2px solid rgb(255, 0, 0);
+	border-radius: 50px;
+}
+#nest:hover{
+	background: rgb(255, 164, 164);
+ }
+
+ #nest:active { background: rgb(255, 31, 31); } 
+ 
+
+ 
+ #food {
+	width:25%;
+	padding: 1%;
+	margin-right: 1%;
+	margin-top: 0.3%;
+    background: white;
+    color: black;
+	border-bottom: 2px solid rgb(255, 196, 0);
+	border-top: 2px solid rgb(255, 196, 0);
+	border-left: 2px solid rgb(255, 196, 0);
+	border-right: 2px solid rgb(255, 196, 0);
+	border-radius: 50px;
+}
+#food:hover{
+	background: rgb(255, 196, 0);
+ }
+
+ #food:active { background: rgb(126, 96, 14); } 
+ 
+ #wall {
+	width:25%;
+	padding: 1%;
+	margin-top: 0.3%;
+    background: white;
+    color: black;
+	border-bottom: 2px solid rgb(0, 0, 0);
+	border-top: 2px solid rgb(0, 0, 0);
+	border-left: 2px solid rgb(0, 0, 0);
+	border-right: 2px solid rgb(0, 0, 0);
+	border-radius: 50px;
+}
+#wall:hover{
+	background: rgb(164, 164, 164);
+ }
+
+ #wall:active { background: rgb(0, 0, 0); color: white;} 
+ 
+
+ #level {
+	width:25%;
+	padding: 1%;
+	margin-top: 0.3%;
+    background: white;
+    color: black;
+	border-bottom: 2px solid rgb(255, 238, 0);
+	border-top: 2px solid rgb(255, 238, 0);
+	border-left: 2px solid rgb(255, 238, 0);
+	border-right: 2px solid rgb(255, 238, 0);
+	border-radius: 50px;
+}
+#level:hover{
+	background: rgb(163, 150, 0);
+ }
+
+ #level:active { background: rgb(110, 110, 0); color: rgb(255, 255, 255);} 
+ 

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="GeneStyle.css">
+</head>
+<body background="../ImagesSite/Mw85z.gif">
+	<header>
+		<div id="logo">
+			<a href="../index.html"><span>А</span>лгоритмы
+		</div>
+		<div id="menuHead">
+			<a href="../Азвезда/AAL.html">
+				<div style="margin-right: 5%">А*</div>
+			</a>
+			<a href="../Кластер/KLASTER.html">
+				<div style="margin-right: 5%">Кластеризации</div>
+			</a>
+			<a id ="GeneA" href="../ГенАлг/GENETIC.html">
+				<div style="margin-right: 5%; background-color: blue">Генетический</div>
+			</a>
+			<a href="../МурАлг/ANT.html">
+				<div style="margin-right: 0.2%">Муравьиный</div>
+			</a>
+			<a href="../БонусМур/SecANT.html">
+				<div id = "AntA" style="margin-right: 5%;">+</div>
+			</a>
+			<a href="../ДеревоРеш/TREE.html">
+				<div style="margin-right: 5%">Дерево решений</div>
+			</a>
+			<a href="../НейрСеть/NEIRO.html">
+				<div style="margin-right: 5%">Нейронная сеть</div>
+			</a>
+		</div>
+	</header>
+	<div id="OCHOBA">
+		<script src="jquery-3.6.0.min.js"></script>
+		<script src="Variables.js"></script>
+		<script src="Canvas.js"></script>
+		<script src="HelpFunctions.js"></script>
+		<script src="GenAlgorithm.js"></script>
+		<script src="MainFunction.js"></script>
+			<span id="Points">Точек: 0</span>
+			<span id="Iters">Итерация: 0</span>
+			<span id="Mutates">Мутировано: 0</span>
+			<span id="Children">Детей рождено: 0</span>
+			<span id="Best">Лучшее значение: 0</span>
+			<canvas id="canvas" 
+				width="1230" height="560"
+				style="border:5px solid blue;">
+			</canvas>
+			<div id="buttons">
+				<button id="Random" class="btn">Добавить 10 рандомных точек</button>
+				<button id="Launch" class="btn">Запустить</button>
+				<button id="Stop" class="btn">Стоп</button>
+				<button id="Clear" class="btn">Очистить всё</button>
+			</div>
+		</div>
+</body>
+</html>

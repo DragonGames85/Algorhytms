@@ -1,0 +1,199 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+html {height: 100%}
+
+body {
+	width: 100%;
+	height: 100%;
+    background: #111;
+    color: #f4f4f4;
+	font-family: "Segoe UI", Arial, sans-serif;
+	font-size: 1em;
+	line-height: 135%;
+	float: left;
+  } 
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+}
+
+.clear {
+	clear: both;
+}
+
+/* Стили для шапки */
+
+header {
+	width: 98%;
+	float: left;
+	padding: 1%;
+    background: rgba(90, 0, 0, 0);
+    color: #f4f4f4;
+	border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+header #logo {
+	width: 20%;
+	float: left;
+    background: rgba(90,0,0,0);
+    color: #f4f4f4;
+}
+
+header #logo a {
+	color: rgb(255, 255, 255);
+	font-size: 2em;
+	font-family: Times New Roman, sans-serif;
+}
+
+header #logo span {
+	color:#FF0000;
+}
+
+header #menuHead {
+	width: 80%;
+	float: left;
+}
+
+header #menuHead div {
+	float: left;
+	padding: 5px;
+	background-color: grey;
+	border-radius: 10px;
+}
+
+header #menuHead div:hover {
+	background-color: rgb(78, 75, 75);
+}
+
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: bottom;
+    color: white;
+}
+
+/* Centered text */
+.centered {
+	width: 700px;
+	color: yellow;
+	font-family: "Droid Sans", arial, verdana, sans-serif;
+	font-weight: bold;
+	font-size: 3em;
+	text-align: center;
+	position: absolute;
+    top: 10%;
+	opacity: 0;
+    left: 25%;
+    transform: translate(-50%, -50%);
+	transform-origin: 50% 100%;
+	transform: perspective(300px) rotateX(25deg);	
+	animation: ani2 6s forwards, scroll 10s linear 0s infinite;
+}
+
+.centered1 {
+	color: yellow;
+	font-family: "Droid Sans", arial, verdana, sans-serif;
+	font-weight: bold;
+	font-size: 3.57em;
+	text-align: center;
+    position: absolute;
+    top: -50%;
+	line-height: 100%;
+	width: 700px;
+	left: 25%;
+    transform: translate(-50%, -50%);
+	transform-origin: 50% 100%;
+	transform: perspective(300px) rotateX(25deg);	
+	animation: ani 4s forwards, scroll 10s linear 2s infinite;
+}
+.centered2 {
+	width: 700px;
+	color: yellow;
+	font-family: "Droid Sans", arial, verdana, sans-serif;
+	font-weight: bold;
+	font-size: 3.57em;
+	text-align: center;
+    position: absolute;
+    top: -50%;
+    left: 25%;
+	opacity: 0;
+    transform: translate(-50%, -50%);
+	transform-origin: 50% 100%;
+	transform: perspective(300px) rotateX(25deg);	
+	animation: ani 8s forwards, scroll 10s linear 3.9s infinite;
+}
+.centered3 {
+	width: 700px;
+	color: yellow;
+	font-family: "Droid Sans", arial, verdana, sans-serif;
+	font-weight: bold;
+	font-size: 3.57em;
+	text-align: center;
+    position: absolute;
+    top: -50%;
+	left: 25%;
+	opacity: 0;
+    transform: translate(-50%, -50%);
+	transform-origin: 50% 100%;
+	transform: perspective(300px) rotateX(25deg);	
+	animation: ani 12s forwards, scroll 10s linear 5.5s infinite;
+
+}
+@keyframes ani2 {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+@keyframes ani {
+	0% {opacity: 0;}
+	50%  {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@keyframes scroll {
+    0% { top: 90%; }
+    100% { top: 20%; }
+}
+
+#socials a{
+	color: orange;
+	font-size: 7em;
+	font-family: Times New Roman, sans-serif;
+	margin-left: 10%;
+}
+
+#people1 a{
+	color: yellow;
+	font-size: 5em;
+	font-family: Times New Roman, sans-serif;
+	margin-left: 20%;
+}
+#people2 a{
+	color: cyan;
+	font-size: 5em;
+	font-family: Times New Roman, sans-serif;
+	margin-left: 30%;
+}
+
+#people3 a{
+	color: lime;
+	font-size: 5em;
+	font-family: Times New Roman, sans-serif;
+	margin-left: 28%;
+}

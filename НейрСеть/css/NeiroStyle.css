@@ -1,0 +1,144 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+html {height: 100%}
+
+body {
+	width: 100%;
+	height: 100%;
+	color: #f4f4f4;
+	font-family: "Segoe UI", Arial, sans-serif;
+	font-size: 1em;
+	line-height: 135%;
+	float: left;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+}
+
+.clear {
+	clear: both;
+}
+
+/* Стили для шапки */
+
+header {
+	width: 98%;
+	float: left;
+	padding: 1%;
+	background: #000000;
+	color: #f4f4f4;
+	border-bottom: 2px solid orange;
+	margin-bottom:20px;
+}
+
+header #logo {
+	width: 20%;
+	float: left;
+	background: #000000;
+	color: #f4f4f4;
+}
+
+header #logo a {
+	color: orange;
+	font-size: 2em;
+	font-family: Times New Roman, sans-serif;
+}
+
+header #logo span {color:#FF0000;}
+
+header #menuHead {
+	width: 80%;
+	float: left;
+}
+
+header #menuHead div {
+	float: left;
+	padding: 5px;
+	background-color: grey;
+	border-radius: 10px;
+}
+
+header #menuHead #NeiSet {
+	float: left;
+	padding: 5px;
+	background-color: rgb(89, 0, 255);
+	border-radius: 10px;
+}
+
+header #menuHead div:hover {
+	background-color: black;
+}
+
+#canv {
+	padding-top: 100px;
+	padding-left: 500px;
+}
+
+#buttons {
+	margin-left: 42%;
+}
+
+#buttonClear {
+	background-color: grey;
+	color: #eeeeee;
+	height: 40px;
+	width: 12%;
+	padding: 20px;
+	background-color: rgb(255, 200, 0);
+    border: 2px solid rgb(255, 200, 0);
+	border-radius: 20px;
+	color: black;
+	text-align: center;
+}
+
+#buttonResult {
+	background-color: grey;
+	color: #eeeeee;
+	height: 40px;
+	width: 12%;
+	padding: 20px;
+	background-color: rgb(255, 200, 0);
+    border: 2px solid rgb(255, 200, 0);
+	border-radius: 20px;
+	color: black;
+	text-align: center;
+}
+
+#buttonResult:hover{
+	background: rgb(129, 129, 129);
+	padding: 20px;
+	color: white;
+ }
+
+ #buttonResult:active { 	
+	background: rgb(51, 51, 51);
+	color: white;
+}
+
+#buttonClear:hover{
+	background: rgb(129, 129, 129);
+	padding: 20px;
+	color: white;
+ }
+
+ #buttonClear:active { 	
+	background: rgb(51, 51, 51);
+	color: white;
+}

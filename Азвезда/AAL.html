@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type ="text/css" href="Astyle.css">
+</head>
+<body background="../ImagesSite/spfg.jpg">
+	<header>
+		<div id="logo">
+			<a href="../index.html"><span>А</span>лгоритмы
+		</div>
+		<div id="menuHead">
+			<a href="../Азвезда/AAL.html">
+				<div style="margin-right: 5%;background-color: cyan; color: black;">А*</div>
+			</a>
+			<a href="../Кластер/KLASTER.html">
+				<div style="margin-right: 5%">Кластеризации</div>
+			</a>
+			<a href="../ГенАлг/GENETIC.html">
+				<div style="margin-right: 5%">Генетический</div>
+			</a>
+			<a href="../МурАлг/ANT.html">
+				<div style="margin-right: 0.2%;">Муравьиный</div>
+			</a>
+			<a href="../БонусМур/SecANT.html">
+				<div id = "AntA" style="margin-right: 5%;">+</div>
+			</a>
+			<a href="../ДеревоРеш/TREE.html">
+				<div style="margin-right: 5%">Дерево решений</div>
+			</a>
+			<a href="../НейрСеть/NEIRO.html">
+				<div style="margin-right: 5%">Нейронная сеть</div>
+			</a>
+		</div>
+	</header>
+	<div> 
+        <canvas id ='canvas' ></canvas>
+        <input placeholder="Размер поля" type="text" id="input-in" value="" class="in" >
+        <button id="button1" class="but1">Ввод</button>
+        <button id="button2" class="but2">Начало и конец</button>
+        <button id="button3" >Постоить путь</button>
+        <button id="button4">Создать лабиринт</button>
+        <script src="AAL.js"></script>
+    </div>
+</body>
+</html>

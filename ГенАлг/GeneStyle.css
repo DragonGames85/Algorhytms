@@ -1,0 +1,148 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+html {height: 100%; background-color: black;}
+
+
+body {
+	width: 100%;
+	height: 100%;
+	font-family: "Segoe UI", Arial, sans-serif;
+	font-size: 1em;
+	line-height: 135%;
+	float: left;
+	color: white;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+}
+
+.clear {
+	clear: both;
+}
+
+/* Стили для шапки */
+
+header {
+	width: 98%;
+	float: left;
+	padding: 1%;
+    background: rgb(0, 0, 0);
+    color: #f4f4f4;
+	margin-bottom: 10px;
+	border-bottom: 2px solid blue;
+}
+
+header #logo {
+	width: 20%;
+	float: left;
+    color: #f4f4f4;
+}
+
+header #logo a {
+	color: rgb(0, 38, 255);
+	font-size: 2em;
+	font-family: Times New Roman, sans-serif;
+}
+
+header #logo span {
+	color:#FF0000;
+}
+
+header #menuHead {
+	width: 80%;
+	float: left;
+}
+
+header #menuHead div {
+	float: left;
+	padding: 5px;
+	background-color: grey;
+	border-radius: 10px;
+}
+
+header #menuHead div:hover {
+	background-color: rgb(78, 75, 75);
+}
+
+
+.container {
+    position: relative;
+    text-align: bottom;
+    color: white;
+}
+
+#genet{
+	width: 100%;
+	height: 100%;
+}
+
+#launch:hover {
+	background: rgb(164, 206, 255);
+ }
+ #launch:active { background: rgb(51, 255, 0); } 
+ 
+
+#canvas {
+	margin-top: 12px;
+	width: 80%;
+	margin-left: 10%;
+	height: 70%;
+	background-color: rgba(0,0,0,0.8);
+	border: 3px solid blue;
+	border-radius: 50px;
+}
+
+#buttons {
+    margin: 8px;
+    margin-left: 16.5%;
+	margin-top: 0.1px;
+}
+
+#Clear,#Launch,#Stop, #Random{
+	width:20%;
+	color: white;
+	padding: 20px;
+	background-color: blue;
+    border: 2px solid blue;
+	border-radius: 20px;
+}
+#Clear:hover,#Launch:hover,#Stop:hover, #Random:hover {
+	color: black;
+	background-color: rgb(255, 255, 255);
+}
+
+#Points, #Iters, #Best, #Children, #Mutates {
+	
+    color: white;
+    padding: 5px;
+    text-align: center;
+	color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+	border: 3px solid blue;
+	border-radius: 20px;
+}
+#Points{
+	margin-left: 26%;
+}
+
+footer {
+    margin-left: -150px;
+    text-align: center;
+}

@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+html {height: 100%}
+
+body {
+    width: 100%;
+    height: 100%;
+    color: #f4f4f4;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 1em;
+    line-height: 135%;
+    float: left;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Стили для шапки */
+
+header {
+	width: 98%;
+	float: left;
+	padding: 1%;
+    background: rgb(14,31,25);
+    color: #f4f4f4;
+	border-bottom: 2px solid yellow;
+	margin-bottom:20px;
+}
+
+header #logo {
+	width: 20%;
+	float: left;
+    background: rgb(14,31,25);
+    color: #f4f4f4;
+}
+
+header #logo a {
+	color: yellow;
+	font-size: 2em;
+	font-family: Times New Roman, sans-serif;
+}
+
+header #logo span {
+	color:#ff0000;
+}
+
+header #menuHead {
+	width: 80%;
+	float: left;
+}
+
+header #menuHead div {
+	float: left;
+	padding: 5px;
+	background-color: grey;
+	border-radius: 10px;
+}
+header #menuHead #Tre{
+	float: left;
+	padding: 5px;
+	background-color: rgb(5, 156, 0);
+	border-radius: 10px;
+}
+
+header #menuHead div:hover {
+	background-color: rgb(78, 75, 75);
+}
+#textPlace{
+    font-size: 15px;
+    resize: none;
+}
+#textArea{
+    padding-left: 100px;
+    padding-top: 10px;
+    resize: none;
+    text-align: justify;
+}
+#label{
+    padding-left: 400px;
+    padding-top: 100px;
+}
+#buttons{
+    padding-left: 400px;
+    padding-top: 10px;
+}
+#buttonResult{
+    background-color: grey;
+    color: #eeeeee;
+    height: 40px;
+    width: 80px;
+}
+#canv{
+    padding-top: 10px;
+    color: rgba(255, 255, 255, 0);
+    padding-left: 150px;
+    
+}
+
+#textPlaceForPredictions{
+    font-size: 15px;
+    padding-left: 50px;
+    resize: none;
+}
+#button{
+    padding-left: 400px;
+    padding-top: 10px;
+}
+#buttonAns{
+    background-color: grey;
+    color: #eeeeee;
+    height: 40px;
+    width: 80px;
+}
+#labels{
+    padding-left: 100px;
+}
+ul {
+    font: 14px Verdana, Geneva, sans-serif;
+    text-align: justify;
+}
+ul li  {
+    display: inline-block;
+    padding-left: 50px;
+}

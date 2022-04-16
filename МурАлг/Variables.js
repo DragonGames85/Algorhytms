@@ -1,0 +1,20 @@
+var 
+canv = document.getElementById('canvas'),
+ctx = canv.getContext('2d'),
+coordsX =[],
+coordsY =[],
+bestWay = [],
+bestlength = 0,
+StartAnts=false,
+Cities = 0,
+IterCounter = 0,
+Matrix = [],
+pheromones = [],
+ants = [],
+SetAnts = 50,
+alpha = 1,               // Насколько доверяем феромонам
+beta = 5,                // Насколько видим города
+rho = 0.001,              // Фактор исчезновения феромонов
+Q = 1.0;                 // Фактор распространения феромонов
+canv.width = window.innerWidth-300;
+canv.height = window.innerHeight -210;

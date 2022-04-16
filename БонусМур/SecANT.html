@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="SecANT.css">
+</head>
+<body background="../ImagesSite/NewAnt.jpg">
+	<header>
+		<div id="logo" >
+			<a href="../index.html"><span>А</span>лгоритмы
+		</div>
+		<div id="menuHead">
+			<a href="../Азвезда/AAL.html">
+				<div style="margin-right: 5%">А*</div>
+			</a>
+			<a href="../Кластер/KLASTER.html">
+				<div style="margin-right: 5%">Кластеризации</div>
+			</a>
+			<a href="../ГенАлг/GENETIC.html">
+				<div style="margin-right: 5%">Генетический</div>
+			</a>
+			<a href="../МурАлг/ANT.html">
+				<div style="margin-right: 0.2%;">Муравьиный</div>
+			</a>
+			<a href="../БонусМур/SecANT.html">
+				<div id = "AntA" style="margin-right: 5%;background-color: lime; color: black;">+</div>
+			</a>
+			<a href="../ДеревоРеш/TREE.html">
+				<div style="margin-right: 5%">Дерево решений</div>
+			</a>
+			<a href="../НейрСеть/NEIRO.html">
+				<div style="margin-right: 5%">Нейронная сеть</div>
+			</a>
+		</div>
+	</header>
+	<script src="jquery-3.6.0.min.js"></script>
+	<canvas id="canvas" style="display: block;"></canvas>
+	<button id = "launch">Запуск алгоритма</button>
+	<button id = "clear">Очистить</button>
+	<button id = "level">Стандартный Уровень</button>
+	<button id = "nest">Расставить гнездо</button>
+	<button id = "food">Расставить пищу</button>
+	<button id = "wall">Расставить стены</button>
+	<script src="Variables.js"></script>
+	<script src="HelpFunctions.js"></script>
+	<script src="AntAlgorithm.js"></script>
+	<script src="Draws.js"></script>
+	<script src="MainFunction.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+var 
+  MouseClicked = false,
+  canvas = document.getElementById('canvas'),
+  ctx = canvas.getContext('2d'),
+  Mouse_nest=false,
+  Mouse_food = false,
+  Mouse_Wall = false,
+  Nest_Added = false,
+  nest = {x: 0,y: 0},
+  Pheromones_at_nest = [],
+  AntsTO = [],
+  BestPhero = {id: 0, pow: 0};
+  AntsFROM = [],
+  food = [],
+  walls = [],
+  AntTrail = [],
+  RunANTS = false,
+  NumAnts = 5;
+canvas.width = window.innerWidth-300;
+canvas.height = window.innerHeight -210;
